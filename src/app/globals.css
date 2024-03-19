@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-background text-foreground;
+  /* max-width: 1440px; */
+  margin: auto;
+}
+
+.input-1 {
+  /* Frame 45 */
+  position: static;
+  width: 354px;
+  height: 56px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+  margin: 0px 0px;
+  /* Light Grey */
+  background: rgb(249, 249, 249);
+  padding-left: 30px;
+}
+.input-3:focus {
+  outline: none;
+}
+.input-1:focus {
+  outline: none;
+}
+.btn-1 {
+  width: 354px;
+  height: 56px;
+  /* Dark Primary */
+  background: #2a254b;
+  color: #fff;
+  transition: 0.3s;
+}
+.btn-1:hover {
+  background: #483f80;
+}
+.input-2 {
+  /* Frame 45 */
+  position: static;
+  width: 409px;
+  height: 56px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+  margin: 0px 0px;
+  /* Light Grey */
+  background: #3e395e;
+  padding-left: 30px;
+}
+.input-2:focus {
+  outline: none;
+}
+.btn-2 {
+  width: 118px;
+  height: 56px;
+  /* Dark Primary */
+  color: #2a254b;
+  background: #fff;
+  transition: 0.3s;
+}
+.btn-2:hover {
+  background: #c5c5c7;
+}
+.input-4 {
+  /* Frame 45 */
+  position: static;
+  width: 224px;
+  height: 56px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+  margin: 0px 0px;
+  /* Light Grey */
+  background: rgb(249, 249, 249);
+  padding-left: 30px;
+}
+.input-4:focus {
+  outline: none;
+}
+.btn-4 {
+  width: 118px;
+  height: 56px;
+  /* Dark Primary */
+  background: #2a254b;
+  color: #fff;
+  transition: 0.3s;
+}
+.btn-4:hover {
+  background: #483f80;
+}
+.input-5 {
+  /* Frame 45 */
+  position: static;
+  width: 224px;
+  height: 56px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+  margin: 0px 0px;
+  /* Light Grey */
+  background: #3e395e;
+  padding-left: 30px;
+}
+.input-5:focus {
+  outline: none;
+}
+.btn-5 {
+  width: 118px;
+  height: 56px;
+  /* Dark Primary */
+  color: #2a254b;
+  background: #fff;
+  transition: 0.3s;
+}
+.btn-5:hover {
+  background: #d6d4d9;
+}
+.input-6 {
+  /* Frame 45 */
+  position: static;
+  width: 224px;
+  height: 56px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+  margin: 0px 0px;
+  /* Light Grey */
+  background: rgb(249, 249, 249);
+  padding-left: 30px;
+}
+.input-6:focus {
+  outline: none;
+}
+.btn-6 {
+  width: 118px;
+  height: 56px;
+  /* Dark Primary */
+  background: #2a254b;
+  color: #fff;
+  transition: 0.3s;
+}
+.btn-6 {
+  background: #483f80;
+}
